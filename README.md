@@ -7,6 +7,7 @@ The project aims to deploy a web application along with a MongoDB database in a 
 1.### Configuration and Secrets Setup:
 i. Creation of a ConfigMap (mongo-config.yaml) to store MongoDB configuration data, allowing easy modification and separation of configuration from Pod specifications.
 ii. Generating a Secret (mongo-secret.yaml) to securely store sensitive information like usernames and passwords for MongoDB
+
 2.### Deployment of MongoDB:
 i. Definition of a MongoDB Deployment and Service (mongo.yaml) in Kubernetes to ensure the availability and accessibility of the MongoDB instance
 3.### Deployment of Web Application:
