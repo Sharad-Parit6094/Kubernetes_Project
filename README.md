@@ -18,11 +18,12 @@ ii. Integration of the mongo-config ConfigMap in the WebApp Deployment, allowing
 i. Configuring external access to the deployed WebApp Service, potentially using NodePort or LoadBalancer configurations to enable access from outside the Kubernetes cluster.
 ### 6.Minikube Deployment:
 i. Execution of the deployment within Minikube by applying the Kubernetes resources to the local cluster using kubectl apply.
-``minikube start
+
+`minikube start
 kubectl apply -f mongo-config.yaml
 kubectl apply -f mongo-secret.yaml
 kubectl apply -f mongo.yaml
-kubectl apply -f webapp.yaml
+kubectl apply -f webapp.yaml`
 
 ### 7.Accessing the Web Application:
 i. Providing instructions on how to access the deployed web application in a browser by utilizing port-forwarding or the externally exposed endpoint.
