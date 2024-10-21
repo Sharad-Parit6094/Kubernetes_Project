@@ -1,1 +1,1 @@
-# Kubernetes_Project
+# Application Deployment using Minikube
